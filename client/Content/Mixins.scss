@@ -1,0 +1,22 @@
+@mixin button-transitions {
+    transition: border-color 83ms linear, box-shadow 83ms linear;
+    transition-property: border-color, box-shadow;
+    transition-duration: 83ms, 83ms;
+    transition-timing-function: linear, linear;
+    transition-delay: 0s, 0s;
+    &:hover {
+        border-color: $white !important;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .1);
+        transition: border-color .167s linear, box-shadow .167s linear;
+        transition-property: border-color, box-shadow;
+        transition-duration: 0.167s, 0.167s;
+        transition-timing-function: linear, linear;
+        transition-delay: 0s, 0s;
+    }
+}
+
+@mixin columnWidth($columnWidth) {
+    width: $columnWidth !important;
+    min-width: $columnWidth !important;
+    max-width: $columnWidth !important;
+}

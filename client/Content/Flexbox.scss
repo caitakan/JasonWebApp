@@ -1,0 +1,90 @@
+.flexBox {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flexTextWrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+@mixin flexBoxwrap($wrap) {
+  flex-wrap: $wrap;
+  -webkit-flex-wrap: $wrap;
+}
+
+@mixin flexBox-Direction($Direction) {
+  flex-direction: $Direction;
+}
+
+@mixin flexBox-justify-align($Direction) {
+  align-items: $Direction;
+  justify-content: $Direction;
+}
+
+@mixin flexBox-align-items($Direction) {
+  align-items: $Direction;
+}
+
+@mixin flexBox-justify-content($Direction) {
+  justify-content: $Direction;
+}
+
+.flexBox-center-align-justify {
+  @extend .flexBox;
+  @include flexBox-justify-align(center);
+}
+
+.flexBox-space-between-justify {
+  @extend .flexBox;
+  @include flexBox-justify-align(space-between);
+}
+
+.flexBox-space-around-justify {
+  @extend .flexBox;
+  @include flexBox-justify-align(space-around);
+}
+
+.flexBox-Direction-row {
+  @include flexBox-Direction(row);
+}
+
+.flexBox-Direction-row-reversal {
+  @extend .flexBox;
+  @include flexBox-Direction(row-reverse);
+}
+
+.flexBox-Direction-column {
+  @include flexBox-Direction(column);
+}
+
+.flexBox-column-center {
+  @extend .flexBox;
+  @include flexBox-Direction(column);
+  @include flexBox-justify-content(center);
+}
+
+.flexBox-wrap {
+  @include flexBoxwrap(wrap);
+}
+
+hr {
+  border: 1px solid $borderColor;
+}
+
+@mixin rotate($degree) {
+  -webkit-transform: rotate($degree);
+  -moz-transform: rotate($degree);
+  -ms-transform: rotate($degree);
+  -o-transform: rotate($degree);
+  transform: rotate($degree);
+}

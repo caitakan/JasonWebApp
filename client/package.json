@@ -5,14 +5,14 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "node --max-old-space-size=4096 tools/Server.js auth",
+    "start": "node --max-old-space-size=4096 tools/Server.js",
     "auth": "yarn global add vsts-npm-auth --registry https://msazure.pkgs.visualstudio.com/_packaging/AzureCXP/npm/registry --always-auth false && vsts-npm-auth -config .npmrc",
     "prebuild": "node tools/BuildClean.js",
     "build": "node --max-old-space-size=4096 tools/Build.js",
     "postbuild": "node tools/ProdServer.js",
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
-  "author": "Microsoft",
+  "author": "Jason",
   "devDependencies": {
     "@microsoft/sp-office-ui-fabric-core": "^1.8.0",
     "@types/applicationinsights-js": "^1.0.7",

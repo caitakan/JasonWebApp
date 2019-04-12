@@ -1,12 +1,7 @@
-const express = require("express");
 const webpack = require("webpack");
 const webpackConfig = require("../webpack.config");
 const webpackMerge = require("webpack-merge");
-const expressConfig = require("../webpack.config.express");
-const colors = require("colors");
 const strings = require("./BuildStrings");
-const fs = require("fs");
-const rmdir = require("rmdir");
 const buildFileName = "Pages";
 const buildLocation = "../";
 process.env.NODE_ENV = strings.production;

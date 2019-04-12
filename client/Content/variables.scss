@@ -1,0 +1,164 @@
+﻿$fa-font-path: "~font-awesome/fonts";
+$primary-color: #fff;
+$secondary-color: #f8f8f8 !important;
+$light-font-family: "Segoe UI Light";
+$primary-font-family: "Segoe UI";
+$space10: 10%;
+$space1: 1% !important;
+$space2: 2% !important;
+$margin3: 3px;
+$margin10: 10px;
+$margin20: 20px;
+$margin50: 50px;
+$fieldDefaultWidth: 100%;
+$fieldDefaultHeight: 30px;
+$textAreaDefaultHeight: 60px;
+$fieldDefaultborder: 1px;
+$commandButtonHeight: 40px;
+$FieldsDefaultWidth: 300px;
+$headerFieldsDefaultWidth: 600px;
+$TitleFieldWidth: 70%;
+$FieldsWithLabelWidth: 300px;
+$engagementSectionHeight: 56px;
+/* #region Nav Bar */
+
+$navBarHeight: 48px;
+$shadowColor: #ccc;
+$navBarBackgroundColor: #0078d4;
+$navBarBackgroundColorBlack: #323130;
+$navBarHoverColor: #1692f1;
+$navBarSelectedColor: #004578;
+$leftNavBarWidth: $navBarHeight;
+$rightNavButtonWidth: 56px;
+/* #endregion */
+
+/*#region Iridias font colors, heights and width */
+$height1: 1rem;
+$height2: 2rem;
+$informational: #0078d4;
+$mitigated: #0a8f5b;
+$resolved: #0a8f5b;
+/*#endregion */
+
+/*#region Homepage */
+$appBorderColor: $navBarHoverColor;
+/*#endregion */
+
+/* #region Colors */
+
+$white: #ffffff;
+$black: #000000;
+$blue: blue;
+$red: #ea4300;
+$green: #00b294;
+$yellow: #ffb900;
+$orange: #f36c4f;
+$gray: #a6a6a6;
+$grey: #eaeaea;
+$darkgray: #808080;
+$brightblue: #095fb0;
+$dullblue: #053867;
+$lightgray: #d2d2d2;
+$ErrorMessageColor: #ff0000;
+$ErrorBackgroundColor: #fdeded;
+$commandBarBackgroundColor: #f4f4f4;
+$WarningBackgroundColor: #ffffb6;
+$WarningBorderColor: #ffffb6;
+$fieldborderColor: #a6a6a6;
+$fieldFocusborderColor: #0078d4;
+$linkColor: #0078d4;
+$borderColor: #dadada;
+$infoBackgroundColor: #fcf8e3;
+$infoBorderColor: #fbeed5;
+$infoFontColor: #333;
+$emojiSmilingColor: #84b458;
+$emojiNeutralColor: #dbae51;
+$emojiFrowningColor: #e27378;
+$cyan: #00b7c3;
+$panelPreviewSection: #faf9f8;
+$expand-gray: #757575;
+/* #endregion*/
+
+$fontFamily: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+$fontSizeExtraLarge: 22px;
+$fontSizeLarge: 16px;
+$fontSizeRegular: 14px;
+$fontSizeSmall: 12px;
+$fontSizeExtraSmall: 10px;
+$fontExtraLarge: 20px;
+$fontExtraExtraLarge: 24px;
+$fontRegular: 400;
+$fontSemiBold: 600;
+$fontBold: 700;
+$fieldWidthRegular: 150px;
+$fieldWidthExtraSmall: 50px;
+$fieldWidthSmall: 100px;
+$fieldWidthLarge: 200px;
+$fieldWidthExtraLarge: 300px;
+//Enagagement Colors
+$ModuleTabBackgroundColor: #eaeaea;
+$ModuleSelectedTabBackgroundColor: #dadada;
+$sectionBackgroundColor: #f4f4f4;
+$sectionBorderColor: #d0d0d0;
+$projectColor: #d05ec2;
+$activityColor: #ffb900;
+$engagementColor: #e3008c;
+$nominationColor: #ea4300;
+$commandBarBackgroundColor: $ModuleSelectedTabBackgroundColor;
+$warningMessageFontColor: #a80000;
+$warningMessageBackgroundColor: #ffe7ea;
+$commandButtonFontColor: #212121;
+$tabsTextBackgroundColor: $ModuleTabBackgroundColor;
+$editableSectionHeaderColor: #004578;
+$readOnlyFieldColor: #3c3c3c;
+$filterPanelBackgroundCoor: #f8f8f8;
+$filterHeaderColor: #004578;
+$nominationInfoLinkColor: $fieldFocusborderColor;
+$nominationFieldLabelColor: #333333;
+$nominationInfoHeaderColor: #005a9e;
+$noIntent: #666666;
+$intentUnknown: #5c005c;
+$blocked: #ea4300;
+$notStarted: #dadada;
+$inprogress: #ff8c00;
+$closed: #00b294;
+$dropDownGray: #c8c6c4;
+
+/* #region Health Colors */
+$healthRed: #e81123;
+$healthOrange: #ff8c00;
+$healthGreen: #00ad56;
+$healthFeedback: #e1dfdd;
+$actionIconColor: #605e5c;
+$backgroundModal: unquote("#c8c6c4a3");
+$feedbackHoverBackground: #c7e0f4;
+$previewBackground: #f3f2f1;
+$previewBorderColor: #edebe9;
+$programNameFont: #323130;
+$feedbackIconColor: #0078d4;
+$feedbackIconBorder: #c7e0f4;
+/* #endregion */
+
+/* #region Iridias Colors */
+$iridiasBluePrimary: #428bca;
+$iridiasBlueHover: #0f4a8a;
+/* #endregion */
+
+/* #region Workflow Componnet colors */
+$workflowInProgressColor: #428bca;
+$workflowCompletedColor: #00b294;
+$workflowPendingColor: #ccc1c1;
+$workflowWarningColor: #f1d81c;
+$workflowErrorColor: #a80000;
+/* #region Feedback Colors */
+
+/* #region Feedback Colors */
+$themeSubthemeHeaderColor: #004578;
+$themeHoverColor: #eff6fc;
+$subthemeHoverColor: #deecf9;
+$themeValidationSuccessIconColor: #00b294;
+$themeValidationFailureIconColor: #ea4300;
+$themeActiveBackgroundColor: #eff6fc;
+$themeActiveBorderColor: #71afe5;
+$feedbackHeader: 60px;
+/* #endregion*/
